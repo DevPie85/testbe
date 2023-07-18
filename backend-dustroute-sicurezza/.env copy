@@ -1,0 +1,30 @@
+# Porta del server
+SERVER_PORT = 3005
+
+# Configurazione del database
+# Inserire il client id è essenziale per una corretta comunicazione con il client
+CLIENT_ID=your_client_id
+
+# Inserire il client secret è essenziale per una corretta comunicazione con il client
+CLIENT_SECRET=your_client_secret
+
+# inserire il nome del database
+DB_NAME=dustroute
+# inserire l'utente del database
+DB_USER=udr102
+# inserire la password del database
+DB_PASSWORD='pass#entra.'
+# inserire l'host del database
+DB_HOST=localhost
+# inserire la porta del database
+DB_PORT=3306
+
+# Admin di default
+DEFAULT_ADMIN_EMAIL=admin@admin.com
+DEFAULT_ADMIN_PASSWORD=Administrator1! #la password deve avere almeno 8 caratteri, una lettera maiuscola, una minuscola, un numero e un carattere speciale
+
+# Dati dell'admin di default
+DEFAULT_ADMIN_MATRICOLA=matr-000
+DEFAULT_ADMIN_NOME=PrimoAdmin
+DEFAULT_ADMIN_COGNOME=Admin
+DEFAULT_ADMIN_NOTE=Amministratore di default, questo amministratore non può essere modificato o cancellato.
